@@ -108,13 +108,6 @@ namespace OpenTK_U
             base.OnRenderFrame(args);
             GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
 
-            // Rotación en el eje Y
-            //_rotation += 0.001f;  // Incrementa la velocidad si es necesario
-            //Matrix4 model = Matrix4.CreateRotationY(_rotation);
-            //Matrix4 view = Matrix4.LookAt(new Vector3(0, 0, 2), Vector3.Zero, Vector3.UnitY);
-            //Matrix4 projection = Matrix4.CreatePerspectiveFieldOfView(MathHelper.DegreesToRadians(45f), 800f / 600f, 0.1f, 100f);
-            //_mvp = model * view * projection;
-
             _rotation += 0.0002f;
 
             // Nuevo eje central para modificar, en este caso (0, 0, -1), puedes cambiarlo a tu preferencia.
