@@ -110,7 +110,7 @@ namespace OpenTK_U
 
             _rotation += 0.0002f;
 
-            // Nuevo eje central para modificar, en este caso (0, 0, -1), puedes cambiarlo a tu preferencia.
+            // Nuevo eje central para modificar, en este caso (0, 0, -1)
             Vector3 axisOfRotation = new Vector3(0f, 0f, -1f);
 
             // Aplicar la rotación alrededor de un nuevo eje central
